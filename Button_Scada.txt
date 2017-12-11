@@ -1,0 +1,6 @@
+var s = "";  
+if (value)  
+    s += "<img style='cursor:pointer;' width='20' height='20' src='graphics/Botao-3D/botao20.png' onclick='mango.view.setPoint("+ point.id +", \""+ pointComponent.id +"\", \"false\");return false;'/>";  
+else  
+    s += "<img width='20' heigh='20' src='graphics/Botao-3D/botao10.png'  onclick='mango.view.setPoint("+ point.id +", \""+ pointComponent.id +"\", \"true\");return false;'/>";  
+return s;
